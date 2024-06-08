@@ -20,6 +20,6 @@ from InventoryApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('inventory-django/', views.inventory_list),
-    path('inventory-django/<int:pk>/', views.inventory_details),
+    path('inventory-app/', views.inventory_list),
+    path('inventory-app/<int:pk>/', views.inventory_details),
 ]
