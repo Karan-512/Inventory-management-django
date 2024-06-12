@@ -8,8 +8,8 @@ class InventoryTest(TestCase):
 
     def setUp(self):
         self.client = APIClient()
-        self.inventory_list_url = "/inventory/"
-        self.inventory_details_url = "/inventory/{}/"
+        self.inventory_list_url = "/inventory-app/"
+        self.inventory_details_url = "/inventory-app/{}/"
        
         self.new_item = {
             "id":4,
