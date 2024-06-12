@@ -18,7 +18,7 @@ pipeline {
         stage('Testing') {
             steps {
                 script {
-                    sh 'sudo docker exec ${COMPOSE_PROJECT_NAME}_web-1 python manage.py test'
+                    sh 'sudo docker exec ${COMPOSE_PROJECT_NAME}-web-1 python manage.py test'
                 }
             }
         }
